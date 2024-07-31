@@ -50,11 +50,33 @@ set ttymouse=sgr
 set balloonevalterm
 
 " my custom found stuff
+
 set tabstop=4 " indentation width
 set shiftwidth=4 " make the indentation the same
 set smarttab " autotabs for certain  code
 set showmatch " show matching bracket
+
+" show whitespace characters
 set listchars=eol:$,nbsp:_,tab:>-,trail:~,extends:>,precedes:<
 set list
+" white space characters color
 highlight NonText ctermfg=DarkGrey
 highlight SpecialKey ctermfg=DarkGrey
+
+" follow instruction here to clone repo into right folder
+" https://github.com/ycm-core/YouCompleteMe/issues/4134#issuecomment-1446235584
+"" adding syntax highlighting for ts, js and zig
+"packadd YouCompleteMe
+"
+"" ensure zig is a recognized filetype
+"autocmd BufNewFile,BufRead *.zig set filetype=zig
+"let g:ycm_language_server =
+"    \ [
+"    \{
+"    \     'name': 'zls',
+"    \     'filetypes': [ 'zig' ],
+"    \     'cmdline': [ '/scibeta/zz/lib/zls/zls' ]
+"    \    }
+"    \ ]
+"
+"
