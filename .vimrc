@@ -16,6 +16,9 @@ syntax on
 " Add numbers to each line on the left-hand side.
 set number
 
+" Show relative line numbers
+set relativenumber
+
 " Do not let cursor scroll below or above N number of lines when scrolling.
 set scrolloff=15
 
@@ -53,6 +56,7 @@ set balloonevalterm
 
 set tabstop=4 " indentation width
 set shiftwidth=4 " make the indentation the same
+set expandtab " replace tabs with spaces
 set smarttab " autotabs for certain  code
 set showmatch " show matching bracket
 
