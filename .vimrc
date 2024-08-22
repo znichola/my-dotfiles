@@ -60,6 +60,12 @@ set expandtab " replace tabs with spaces
 set smarttab " autotabs for certain  code
 set showmatch " show matching bracket
 
+" aliasing the caps version of commands so it's not annoying to close vim
+command W w
+command Q q
+command Wq wq
+command WQ wq
+
 " show whitespace characters
 set listchars=eol:$,nbsp:_,tab:>-,trail:~,extends:>,precedes:<
 set list
