@@ -78,7 +78,11 @@ highlight SpecialKey ctermfg=DarkGrey
 "" adding syntax highlighting for ts, js and zig
 "packadd YouCompleteMe
 "
+" install zig.vim for auto format on save using zig binary
+" https://github.com/ziglang/zig.vim
+"
 "" ensure zig is a recognized filetype
+"" zls path cannont include ~ and probably no $HOME
 "autocmd BufNewFile,BufRead *.zig set filetype=zig
 "let g:ycm_language_server =
 "    \ [
