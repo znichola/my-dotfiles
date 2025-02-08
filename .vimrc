@@ -73,6 +73,15 @@ set list
 highlight NonText ctermfg=DarkGrey
 highlight SpecialKey ctermfg=DarkGrey
 
+" install Plug https://github.com/junegunn/vim-plug
+" then add lines below for unison highlighting
+" call plug#begin()                                                          
+"                                                                           
+" Plug 'unisonweb/unison', { 'branch': 'trunk', 'rtp': 'editor-support/vim' }
+"
+" call plug#end()
+
+
 " follow instruction here to clone repo into right folder
 " https://github.com/ycm-core/YouCompleteMe/issues/4134#issuecomment-1446235584
 "" adding syntax highlighting for ts, js and zig
