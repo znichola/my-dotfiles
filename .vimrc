@@ -59,6 +59,7 @@ set shiftwidth=4 " make the indentation the same
 set expandtab " replace tabs with spaces
 set smarttab " autotabs for certain  code
 set showmatch " show matching bracket
+set colorcolumn=80 " a line at 80 char for easier formatting
 
 " aliasing the caps version of commands so it's not annoying to close vim
 command W w
