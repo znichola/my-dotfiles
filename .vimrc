@@ -102,5 +102,7 @@ highlight SpecialKey ctermfg=DarkGrey
 "    \     'cmdline': [ '/scibeta/zz/lib/zls/zls' ]
 "    \    }
 "    \ ]
-"
-"
+
+
+" OCaml
+set rtp^="/sgoinfre/znichola/.opam/default/share/ocp-indent/vim"
